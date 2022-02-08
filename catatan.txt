@@ -1,0 +1,36 @@
+--- tools npm
+npm install 
+- axios 	  ( untuk mengambil data API )
+- react-chartjs-2 ( untuk membuat chart )
+- react-countup   ( untuk membuat style count pada API )
+- chart.js 	  ( untuk membuat chart
+- classnames      ( untuk menyatukan styled menjadi satu )
+
+--- api
+
+- daily data (card)    : - https://covid19.mathdro.id/api/daily 
+                         
+- daily data ( chart ) : - https://api.covidtracking.com/v1/us/daily.json
+
+- country data (pickercountry) : - https://covid19.mathdro.id/api/countries
+
+--- step 
+
+Card
+
+- buat card component dan ambil api dari app js
+
+Chart
+
+- buat chart component beserta state 
+- dan juga props yang mengambil data dari api
+
+Country Picker
+- tambah api di api/index.js
+- buat component pickercountry beserta useState dan useEffect
+- lalu ambil data api (fetchapi) dan panggil di countrypicker form
+- setelah data select tampil dan diambil berdasar api, 
+   lalu kita buat func di app js untuk handle change di country pickercountry
+- dan jangan lupa ganti export api nya 
+
+blob:https://web.whatsapp.com/069f01e7-2656-405a-807b-424dc4fa2a0b (component structure)
